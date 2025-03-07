@@ -16,7 +16,6 @@ manifest:
     - name: zmk-tamago60
       remote: scalaw4g
       revision: main
-      import: kconfig
     - name: zmk-hid-io
       remote: badjeff
       revision: main
