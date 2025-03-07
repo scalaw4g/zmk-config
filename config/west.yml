@@ -16,7 +16,7 @@ manifest:
     - name: zmk-tamago60
       remote: scalaw4g
       revision: main
-      #import: west.yml
+      import: west.yml
  #   - name: zmk-hid-io
  #     remote: badjeff
  #     revision: main
