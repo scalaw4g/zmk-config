@@ -17,13 +17,13 @@ manifest:
       remote: scalaw4g
       revision: main
       #import: west.yml
-#    - name: zmk-hid-io
-#      remote: badjeff
-      #revision: main
+    - name: zmk-hid-io
+      remote: badjeff
+      revision: main
       #import: kconfig
-#    - name: zmk-analog-input-driver
-#      remote: badjeff
-      #revision: main
+    - name: zmk-analog-input-driver
+      remote: badjeff
+      revision: main
       #import: kconfig
   self:
     path: config
