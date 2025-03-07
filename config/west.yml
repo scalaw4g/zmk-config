@@ -17,7 +17,7 @@ manifest:
       remote: scalaw4g
       revision: main
       import: west.yml
-      import: Kconfig
+ #     import: Kconfig
  #   - name: zmk-hid-io
  #     remote: badjeff
  #     revision: main
