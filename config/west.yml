@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: scalaw4g
       url-base: https://github.com/scalaw4g
-    - name: badjeff
-      url-base: https://github.com/badjeff
+#    - name: badjeff
+#      url-base: https://github.com/badjeff
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -17,13 +17,13 @@ manifest:
       remote: scalaw4g
       revision: main
       #import: west.yml
-    - name: zmk-hid-io
-      remote: badjeff
-      revision: main
+ #   - name: zmk-hid-io
+ #     remote: badjeff
+ #     revision: main
       #import: kconfig
-    - name: zmk-analog-input-driver
-      remote: badjeff
-      revision: main
+ #   - name: zmk-analog-input-driver
+ #     remote: badjeff
+ #     revision: main
       #import: kconfig
   self:
     path: config
