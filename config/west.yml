@@ -15,12 +15,11 @@ manifest:
       import: app/west.yml
     - name: zmk-tamago60
       remote: scalaw4g
-      revision: main
     - name: zmk-hid-io
       remote: badjeff
-      revision: main
+      import: kconfig
     - name: zmk-analog-input-driver
       remote: badjeff
-      revision: main
+      import: kconfig
   self:
     path: config
