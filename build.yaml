@@ -26,3 +26,8 @@ include:
   - board: nice_nano_v2
     shield: naked60
     artifact-name: naked60
+
+### SETTINGS_RESET START ###
+  - board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: nicenano_settings_reset
